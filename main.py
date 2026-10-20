@@ -2,7 +2,7 @@ from calculator import add, divide, multiply, subtract
 
 
 def main():
-    a, b = 10, 2
+    a, b ,c = 10, 2, 3
     print(f"{a} + {b} = {add(a, b)}")
     print(f"{a} - {b} = {subtract(a, b)}")
     print(f"{a} * {b} = {multiply(a, b)}")
