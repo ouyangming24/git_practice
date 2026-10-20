@@ -1,0 +1,33 @@
+# Python 字节码缓存
+__pycache__/
+*.py[cod]
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 打包产物
+build/
+dist/
+*.egg-info/
+
+# 测试与覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 本地环境变量（可能含密码等敏感信息）
+.env
+
+# 日志
+*.log
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+
+# 操作系统生成的文件
+Thumbs.db
+Desktop.ini
+.DS_Store
